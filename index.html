@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Haseeb</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg navigation sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" id="Name" href="#">Muhammad Haseeb</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars-staggered"></i> 
+          </button>
+          <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" id="Home" aria-current="page" href="#"><i class="fa-solid fa-house-user"></i>&nbsp;&nbsp;Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="Home" href="#About-section"><i class="fa-solid fa-user"></i>&nbsp;&nbsp;About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="Home" href="#Services-section"><i class="fa-solid fa-server"></i>&nbsp;&nbsp;Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="Home" href="#Portfolio"><i class="fa-solid fa-briefcase"></i>&nbsp;&nbsp;Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="Home" href="#Resume-section"><i class="fa-solid fa-file"></i>&nbsp;&nbsp;Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="Home" href="#contact-section"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Banner -->
+
+      <div class="container-fluid">
+        <div class="container mt-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-lg-6 img">
+                </div>
+                <div class="col-lg-6">
+                <p class="lead mt-3 para-2">THIS IS ME</p>
+                  <h1 class="display-5 fw-bold lh-1 mb-3 b-text">MUHAMMAD HASEEB</h1>
+                  <p class="lead mt-3 para">Programmer&nbsp;&nbsp; &middot;&nbsp;&nbsp; Designer&nbsp;&nbsp; &middot;&nbsp;&nbsp; Photographer</p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="button p-2 me-md-2" id="openFormBtn">Let's Talk</button>
+                    <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button> -->
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Popup Form -->
+
+      <div id="popupForm" class="popup-form">
+        <form>
+            <p class="fs-4 b-text text-center">Let's Do Your Next Project<br>Together</p>
+          <!-- Your form fields here -->
+          <label for="Name" class="b-text">Your Name:</label>
+          <br>
+          <input type="text" class="p-1 rounded border-0" placeholder="First Name" required>
+          <input type="text" class="p-1 rounded border-0" placeholder="Last Name" required>
+          <br>
+          <label for="Name" class="b-text mt-3">Your Email:</label>
+          <br>
+          <input type="email" class="p-1 rounded border-0 email" placeholder="Email" required>
+          <br>
+          <label for="Name" class="b-text mt-3">Your Phone:</label>
+          <br>
+          <input type="tel" class="p-1 rounded border-0 email" placeholder="Phone" required>
+          <br>
+          <label for="Name" class="b-text mt-3">Subject:</label>
+          <br>
+          <input type="text" class="p-1 rounded border-0 email" placeholder="Subject" required>
+          <br>
+          
+            <textarea name="" class="p-1 rounded border-0 message mt-3" placeholder="Explain Your Project..." cols="30" rows="10"></textarea>
+          <br>
+          <button type="submit" class="button p-2 me-md-2 mt-2">Submit</button>
+          <button id="closeFormBtn" class="button p-2 me-md-2">Close</button>
+        </form>
+        
+      </div>
+
+      <!-- About -->
+
+      <div class="container-fluid About" id="About-section">
+        <div class="container mt-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                
+                <div class="col-lg-6">
+                <p class="lead mt-3 para-2">ABOUT ME</p>
+                  <h1 class="display-5 fw-bold lh-1 mb-3 b-text">Personal Details</h1>
+                  <p class="lead mt-3 para">Hey there! My name is Muhammad Haseeb and I am looking forward to work as UI/UX designer and web developer. I am self-motivated, hard working and positive student looking to explore my career options in IT sector which provides an opportunity to expand my knowledge as a computer science graduate..</p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="button p-2 me-md-2">View more</button>
+                    <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button> -->
+                  </div>
+                </div>
+                <div class="col-lg-6 about-img">
+                </div>
+              </div>
+          </div>
+      </div>
+
+  <!-- Services -->
+
+  <div class="container-fluid services" id="Services-section">
+    <div class="container px-4 py-5" id="hanging-icons">
+        <h1 class="pb-2 b-text fw-bold">My Offered Services</h1>
+        <hr class="hr">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div class="icon-square icon p-2 rounded-3 d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <i class="fa-regular fa-object-group fs-3"></i>
+            </div>
+            <div>
+              <h3 class="fs-2 b-text">Web Design</h3>
+              <p class="b-text">“It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.”</p>
+              <!-- <a href="#" class="btn btn-primary">
+                Primary button
+              </a> -->
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square icon p-2 rounded-3 d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <i class="fa-solid fa-code fs-4"></i>
+            </div>
+            <div>
+              <h3 class="fs-2 b-text">Web Development</h3>
+              <p class="b-text">It's never esy to find someone you can trust. Crucially, putting your trust in someone who can complete your project flawlessly. You won't regret choosing me.</p>
+              <!-- <a href="#" class="btn btn-primary">
+                Primary button
+              </a> -->
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square icon p-2 rounded-3 d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <i class="fa-regular fa-object-ungroup fs-4"></i>
+            </div>
+            <div>
+              <h3 class="fs-2 b-text">UI/UX</h3>
+              <p class="b-text">It's never esy to find someone you can trust. Crucially, putting your trust in someone who can complete your project flawlessly. You won't regret choosing me.</p>
+              <!-- <a href="#" class="btn btn-primary">
+                Primary button
+              </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-- Projects -->
+
+  <div class="container-fluid Projects" id="Portfolio">
+    <div class="container">
+        <h1 class="pb-2 b-text fw-bold text-center">Our Latest Feature Projects</h1>
+        <p class="lead mt-3 para text-center">WEB&nbsp;&nbsp; &middot;&nbsp;&nbsp; UI/UX&nbsp;&nbsp; &middot;&nbsp;&nbsp; GRAPHICS</p>
+    </div>
+    <h3 class="b-text">WEB</h3>
+    <div class="row">
+        <div class="col-md-4 div-1"></div>
+        <div class="col-md-4 div-2"></div>
+        <div class="col-md-4 div-3"></div>
+    </div>
+    <div class="ui-ux">
+        <h3 class="b-text">UI/UX</h3>
+        <div class="row">
+            <div class="col-md-4 div-4"></div>
+            <div class="col-md-4 div-5"></div>
+            <div class="col-md-4 div-6"></div>
+        </div>
+    </div>
+    <div class="graphics">
+        <h3 class="b-text">GRAPHICS</h3>
+        <div class="row">
+            <div class="col-md-4 div-7"></div>
+            <div class="col-md-4 div-8"></div>
+            <div class="col-md-4 div-9"></div>
+        </div>
+    </div>
+  </div>
+
+    <!-- Resume -->
+
+    <div class="container-fluid resume" id="Resume-section">
+        <div class="container">
+            <h1 class="b-text fw-bold text-center">Resume</h1>
+            <!-- <p class="b-text lead text-center fs-5 mb-0">What customers says about me</p> -->
+            <!-- <div class="d-flex justify-content-center">
+              <hr class="border-bottom border-light hr ">
+            </div> -->
+        </div>
+        <div class="main-div">
+          <div class="main-div-2">
+              <div class="row-1">
+                  <div class="coll">
+                      <div class="title">
+                          <h2 class="b-text">Summary</h2>
+                      </div>
+                      <div class="content-1">
+                          <div class="boxe">
+                              <h3 class="b-text">Muhammad Haseeb</h3>
+                              <p class="b-text fst-italic">Expert in Web Development & UI/UX Designing with experience of 2 year with a manifest history of working in information technology and digital services.</p>
+                              <ul class="b-text">
+                                  <li class="list-group-item"><i class="fa-solid fa-location-dot hand"></i>&nbsp;&nbsp;&nbsp;Lahore, Pakistan</li>
+                                  <li class="list-group-item"><i class="fa-solid fa-phone hand mt-3"></i>&nbsp;&nbsp;&nbsp;(+92) 332-8349747</li>
+                                  <li class="list-group-item"><i class="fa-solid fa-envelope hand mt-3"></i>&nbsp;&nbsp;&nbsp;haseebhh1551@gmail.com</li>
+                                  <li class="list-group-item"><i class="fa-brands fa-linkedin hand mt-3"></i>&nbsp;&nbsp;&nbsp;Muhammad Haseeb</li>
+                              </ul>
+                              
+                          </div>
+                      </div>
+                      <div class="title-2">
+                        <h2 class="b-text">Education</h2>
+                      </div>
+                      <div class="content-1">
+                          <div class="boxe">
+                            <h3 class="b-text"> Bachelor in Computer Science</h3>
+                            <h6 class="b-text fst-italic">2021 - 2025</h6>
+                            <p class="b-text fst-italic">Hajvery University, LHR</p>
+                          </div>
+                          <div class="boxe">
+                            <h3 class="b-text">Intermediate (I.C.S)</h3>
+                            <h6 class="b-text fst-italic">2019 - 2021</h6>
+                            <p class="b-text fst-italic">Govt Gulberg College, LHR</p>
+                          </div>
+                          <div class="boxe">
+                            <h3 class="b-text">Matriculation (SCIENCE)</h3>
+                            <h6 class="b-text fst-italic">2017 - 2019</h6>
+                            <p class="b-text fst-italic">Gulberg Science High School, LHR</p>
+                          </div>
+                      </div>
+                  </div>
+    
+    
+                  <div class="coll">
+                      <div class="title">
+                          <h2 class="b-text">Professional Experience</h2>
+                      </div>
+                      <div class="content-1">
+                          <div class="boxe">
+                            <h3 class="b-text"> UI/UX Design Specialist</h3>
+                            <h6 class="b-text fst-italic">2021 - 2023</h6>
+                            <p class="b-text fst-italic">SET, LHR, Pakistan</p>
+                            <ul class="b-text">
+                              <li class="list-group-item mt-3"><i class="fa-solid fa-circle hand-2"></i>&nbsp;&nbsp;Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                              <li class="list-group-item mt-3"><i class="fa-solid fa-circle hand-2"></i>&nbsp;&nbsp;Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.</li>
+                              <li class="list-group-item mt-3"><i class="fa-solid fa-circle hand-2"></i>&nbsp;&nbsp;Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                          </ul>
+                          </div>
+                          <div class="boxe">
+                            <h3 class="b-text">Development</h3>
+                            <h6 class="b-text fst-italic">2021 - 2023</h6>
+                            <p class="b-text fst-italic">Digital Walay, LHR, Pakistan</p>
+                            <ul class="b-text">
+                              <li class="list-group-item mt-3"><i class="fa-solid fa-circle hand-2"></i>&nbsp;&nbsp;Developed numerous marketing programs (Websites, brochures,infographics, presentations, and advertisements).</li>
+                              <li class="list-group-item mt-3"><i class="fa-solid fa-circle hand-2"></i>&nbsp;&nbsp;Managed up to 5 projects or tasks at a given time while under pressure</li>
+                              <li class="list-group-item mt-3"><i class="fa-solid fa-circle hand-2"></i>&nbsp;&nbsp;Recommended and consulted with clients on the most appropriate graphic design</li>
+                          </ul>
+                          </div>
+                      </div>
+                  </div>
+    
+              </div>
+          </div>
+      </div>  
+    </div>
+
+    <!-- Skills Section -->
+
+    <div class="container-fluid Skills" id="Skills-section">
+      <div class="main-div-3">
+        <!-- Main heading starts -->
+
+        <div class="main-div-4">
+            <h1 class="b-text">My Skills</h1>
+        </div>
+
+        <!-- Main heading ends -->
+
+        <div class="row-2">
+
+            <!-- Left section starts here -->
+
+            <div class="coll-2">
+                <div class="sub-title">
+                    <h2 class="b-text">Programming Skills</h2>
+                </div>
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="subject b-text">
+                            HTML
+                        </div>
+                        <div class="progress-bar-1" value="100%">
+                            <div class="progress-line" style="max-width: 100%;">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject b-text">
+                            CSS
+                        </div>
+                        <div class="progress-bar-1" value="100%">
+                            <div class="progress-line" style="max-width: 100%;">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="subject b-text">
+                            Bootstrap
+                        </div>
+                        <div class="progress-bar-1" value="94%">
+                            <div class="progress-line" style="max-width: 94%;">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="subject b-text">
+                            JavaScript
+                        </div>
+                        <div class="progress-bar-1" value="70%">
+                            <div class="progress-line" style="max-width: 70%;">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="subject b-text">
+                            Php
+                        </div>
+                        <div class="progress-bar-1" value="50%">
+                            <div class="progress-line" style="max-width: 50%;">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left Section Ends here -->
+
+            <!-- Right Section starts here -->
+
+            <div class="coll-2">
+                <div class="sub-title">
+                    <h2 class="b-text">Designing Skills</h2>
+                </div>
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="subject b-text">
+                            PhotoShop
+                        </div>
+                        <div class="progress-bar-1" value="50%">
+                            <div class="progress-line" style="max-width: 50%;">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject b-text">
+                            Illustrator
+                        </div>
+                        <div class="progress-bar-1" value="40%">
+                            <div class="progress-line" style="max-width: 40%;">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="subject b-text">
+                            Bootstrap
+                        </div>
+                        <div class="progress-bar-1" value="94%">
+                            <div class="progress-line" style="max-width: 94%;">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="subject b-text">
+                            Figma
+                        </div>
+                        <div class="progress-bar-1" value="70%">
+                            <div class="progress-line" style="max-width: 70%;">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="subject b-text">
+                            XD
+                        </div>
+                        <div class="progress-bar-1" value="100%">
+                            <div class="progress-line" style="max-width: 100%;">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right section ends here -->
+        </div>
+
+
+    </div>
+    </div>
+
+
+
+
+    <!-- Reviews -->
+
+    <div class="container-fluid">
+      <div class="container-3">
+        <div class="container-left">
+            <h1 class="b-text">Read what our customer love about us</h1>
+            <p class="b-text">Over 200 companies frim diverse sectors consult us to enhance the user experience of their products and services.</p>
+            <p class="b-text">We have helped companies increase their customer base and generate multifold revenue with our service.</p>
+            <button class="b-text">Read our success stories</button>
+        </div>
+
+        <div class="container-right">
+
+            <div class="card-1">
+                <img src="./images/img-13.jpeg" alt="user">
+                <div class="card-content">
+                    <span><i class="fa-solid fa-quote-left b-text"></i></span>
+                    <div class="card-details">
+                        <p class="b-text">I had a pleasure of working with Haseeb for the development of my website, and I couldn't be happier with the results!</p>
+                        <h4 class="b-text">- Mateen Amjad</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-1">
+                <img src="./images/img-14.jpg" alt="user">
+                <div class="card-content">
+                    <span><i class="fa-solid fa-quote-left b-text"></i></span>
+                    <div class="card-details">
+                        <p class="b-text">We had a great time collaborating with the Haseeb team. They have my high recommendation</p>
+                        <h4 class="b-text">- Jim Stones</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-1">
+                <img src="./images/img-15.jpg" alt="user">
+                <div class="card-content">
+                    <span><i class="fa-solid fa-quote-left b-text"></i></span>
+                    <div class="card-details">
+                        <p class="b-text">I absolutely loved working with the Haseeb team. Complete experts at what they do!</p>
+                        <h4 class="b-text">- Stacy Stone</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Contact Us -->
+
+    <div class="container-fluid contact" id="contact-section">
+    <div class="container">
+      <div class="row py-5 g-3">
+          <div class="col-md-6 first-col">
+              <h1 class="text-center mt-3 b-text">Contact Us</h1>
+              <form action="" class="p-3 mt-5">
+                  <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label b-text">Enter your name</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label b-text">Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label b-text">Enter Your Message...</label>
+                      <textarea type="text" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                      <button class="button b-text">Send Now</button>
+                    </div>
+              </form>
+          </div>
+          <div class="col-md-6">
+              <img src="./images/img-1.jpeg" class="img-fluid" alt="">
+          </div>
+      </div>
+      <div class="last-row">
+          <div class="row row-cols-1 row-cols-md-3 p-3">
+              <div class="col">
+                  <h4 class="b-text">Call Us</h4>
+                  <p class="b-text">(+92) 332-8349747</p>
+              </div>
+              <div class="col">
+                  <h4 class="b-text">Email</h4>
+                  <p class="b-text">haseebhh1551@gmail.com</p>
+              </div>
+              <div class="col">
+                  <h4 class="b-text">Address</h4>
+                  <p class="b-text">Lahore, Pakistan</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+      
+      
+     <!-- Footer -->
+  <div class="container-fluid footer">
+    <div class="container text-center p-3">
+      <p class="mt-4">&copy;&nbsp;2024 Muhammad Haseeb. All rights reserved.</p>
+    </div>
+  </div>
+    <script src="./js/web.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
